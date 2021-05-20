@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+.ImagenTitulo{
+
+    margin-top: -70px;
+    margin-bottom: -150px;
+    text-align: center;
+    margin-left: 80px;
+}
+h2{
+    font-size: 60px;
+    font-family: 'Gabriola';
+    color: #050a3c;
+
+}/** 
+.Inicio{
+    text-align: center;
+   background-image:url(../Imagenes/FondoT\ 1.png);
+    padding: 140px ;
+    margin-bottom: -25px;
+}**/
+
+#Titulo{
+    padding-top: 80px;
+    margin-top: -200px;
+    padding-bottom: -70px;
+}
+.Informacion{
+    font-family:'Open Sans Condensed';
+    font-weight: 400;
+    font-size: 30px;
+    padding-top: -40px;
+    margin-top: -20px ;
+    margin-bottom: -90px;
+}
+.Sec2_1{
+    background-color: #f5ce7f;
+    text-align: center;
+    margin-top: 0px;
+}
+#TituloCostas{
+    margin-top: -5px;
+}
+.Sec2_1 h2{
+    margin-bottom: -10px;
+}
+.Prr1{
+    font-family:'Open Sans Condensed';
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: -5px;
+}
+.Sec2_2{
+    margin-bottom: 5px;
+    display:inline-flex
+}
+.Prr2{
+    font-family:'Open Sans Condensed';
+    font-weight: 400;
+    font-size: 25px;
+    padding-right: 45px;
+}
+.Final{
+    text-align: center;
+    color: #ffff;
+    background-color: #4c565e;
+    font-size: 20px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-top: 5px;
+    margin-bottom: -40px;
+    margin-left: -10px;
+    margin-right: -10px;
+}

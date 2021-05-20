@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+/* Hueso #f0e7c0
+Amarillo #f5ce7f
+Rosa #ed6c67
+Magenta #a60039
+AguaMarina #009688
+Azul #05a3c
+Gris #4c565e*/
+/* -----------------------------------------ENCABEZADO------------------------------------------------------------ */
+#TituloF{
+    font-family: 'Gabriola';
+    font-size: 100px;
+    color: #f5ce7f;
+    margin-top: 10px;
+    padding-top: 2px;
+    padding-right: 150px;
+    padding-left: 80px;
+    text-decoration:underline;
+}
+.bg-light{
+    background-color: #f0e7c0 !important;
+}
+.navbar{
+    font-family: 'Open Sans Condensed';
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar-brand{
+    font-family: 'Open Sans Condensed';
+    font-size: 40px; 
+}
+/* -----------------------------------------GENERAL------------------------------------------------------------ */
+.Titulos{
+    text-align: center;
+    color: #f0e7c0;
+    font-family: 'Gabriola';
+    font-size: 60px;
+    margin-bottom: -20px;
+    margin-top: -15px;
+}
+.Imagenes{
+    display: block !important;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+/* -----------------------------------------Sec 1----------------------------------------------------------- */
+.Especies{
+    background-color:#f0e7c0a4;
+    display: block !important;
+    text-align: center;
+    font-family: 'Open Sans Condensed';
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.Especies div{
+    padding: 5px 15px 5px 15px;
+    margin-bottom: 10px;
+}
+/* -----------------------------------------SECCION 2------------------------------------------------------------ */
+.Sec1{
+    background-color: #4c565e;
+    width: 100%;
+}
+.Parrafo1{
+    display: inline-flex;
+    color: #ffffff;
+    padding: 25px 35px 25px 35px;
+}
+.Parrafo1 p{
+    font-family: 'Open Sans Condensed';
+    font-size: 25px;
+}    
+#ImagenBarrera{
+    width: 500px;
+    height: 400px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+/* -----------------------------------------SECCION 3------------------------------------------------------------ */
+.Sec2{
+    background-color:#050a3c;
+    width: 100%;
+}
+.Parrafo2{
+    display: inline-flex;
+    padding: 25px 35px 25px 35px;
+    color: #ffffff;
+}
+#ImagenNuqui{
+    width: 500px;
+    height: 400px;
+    padding-left: 5px;
+    margin-right: 90px;
+    padding-bottom: 15px;
+    margin-right: 25px;
+}
+.Parrafo2 p{
+    font-size: 25px;
+    font-family: 'Open Sans Condensed';
+}
+/* -----------------------------------------SECCION 4------------------------------------------------------------ */
+.Sec3{
+    background-color:#a60039;
+    width: 100%;
+}
+.Parrafo3 {
+    color: #ffffff;
+    display: inline-flex;
+    padding: 25px 35px 25px 35px;
+    padding-left: 30px;
+}
+#ImagenManglares{
+    width: 450px;
+    height: 300px;
+}
+.Parrafo3 p{
+    font-size: 25px;
+    font-family: 'Open Sans Condensed';
+}
+/* -----------------------------------------SECCION 5------------------------------------------------------------ */
+.Sec4{
+    background-color: #ed6c67;
+    color: #ffffff;
+    width: 100%;
+}
+.Parrafo4{
+    display: inline-flex;
+    padding: 25px 35px 25px 35px;
+}
+.Parrafo4 p{
+    font-size: 25px;
+    font-family: 'Open Sans Condensed';
+}
+
+#ImagenCorales{
+    width: 450px;
+    height: 300px;
+}
+
+/* -----------------------------------------FINAL----------------------------------------------------------- */
+
+.Final{
+    text-align: center;
+    color: #ffff;
+    font-size: 20px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-top: 5px;
+    margin-bottom: -40px;
+    margin-left: -10px;
+    margin-right: -10px;
+    
+}

@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+/* Hueso #f0e7c0
+Amarillo #f5ce7f
+Rosa #ed6c67
+Magenta #a60039
+AguaMarina #009688
+Azul #050a3c
+Gris #4c565e*/
+/* -----------------------------------------ENCABEZADO------------------------------------------------------------ */
+
+#TituloMit{
+    font-family: 'Gabriola';
+    font-size: 100px;
+    color: #a60039;
+    margin-bottom: -90px;
+    padding-top: 2px;
+    padding-right: 250px;
+    padding-left: 100px;
+    text-decoration:underline;
+}
+.bg-light{
+    background-color: #ed6c67 !important;
+}
+.navbar{
+    font-family: 'Open Sans Condensed';
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar-brand{
+    font-family: 'Open Sans Condensed';
+    font-size: 40px; 
+}
+/* -----------------------------------------GENERAL------------------------------------------------------------
+.Mitos{
+    text-align: center;
+    background-image: url(Imagenes/FondoT\ 1.png) !important;
+}
+.Mitos h2{
+    font-size: 60px;
+    font-family: 'Gabriola';
+    color: #f5ce7f;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.Mitos video{
+    padding: 15px 20px 15px 20px;;
+    border: #f0e7c0 dotted 5px static;
+    background-image: url(Imagenes/FondoT\ 1.png) !important; 
+}*/
+/* -----------------------------------------SECCION 1------------------------------------------------------------ */
+.Kraken {
+    text-align: center;
+    width: 98%;
+    display: inline-flex;
+    background-color: #009688; 
+}
+.TextoKraken{
+    display: block!important;
+}
+.TextoKraken p{
+    font-weight: bold;
+    margin-top: -25px;
+    padding:  1px 10px 3px 10px;
+    font-size: 20px;
+    font-family: 'Open Sans Condensed';
+}
+
+/* -----------------------------------------SECCION 2------------------------------------------------------------ */
+.Sirenas {
+    text-align: center;
+    width: 98%;
+    display: inline-flex;
+    background-color:#a60039; 
+}
+.TextoSirenas{
+    display: block!important;
+
+}
+.TextoSirenas p{
+    font-weight:bold;
+    margin-top: -25px;
+    padding:  1px 10px 3px 10px;
+    font-size: 20px;
+    font-family: 'Open Sans Condensed';
+}
+/* -----------------------------------------SECCION 3------------------------------------------------------------ */
+.Megalodon {
+    margin-top: -4px;
+    text-align: center;
+    width: 98%;
+    display: inline-flex;
+    background-color:#4c565e; 
+}
+.TextoMegalodon{
+    display: block!important;
+
+}
+.TextoMegalodon p{
+    font-weight: bold;
+    margin-top: -25px;
+    padding:  1px 10px 3px 10px;
+    font-size: 20px;
+    font-family: 'Open Sans Condensed';
+}
+/* -----------------------------------------FINAL------------------------------------------------------------ */
+.Final{
+    text-align: center;
+    color: #ffff;
+    font-size: 20px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-top: 5px;
+    margin-bottom: -40px;
+    margin-left: -10px;
+    margin-right: -10px;
+    
+}

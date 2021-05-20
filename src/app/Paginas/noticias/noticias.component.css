@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+/* Hueso #f0e7c0
+Amarillo #f5ce7f
+Rosa #ed6c67
+Magenta #a60039
+AguaMarina #009688
+Azul #050a3c
+Gris #4c565e*/
+/* -----------------------------------------ENCABEZADO------------------------------------------------------------ */
+
+#TituloNot{
+    font-family: 'Gabriola';
+    font-size: 100px;
+    color: #f0e7c0 ;
+    margin-bottom: -90px;
+    padding-top: 2px;
+    padding-right: 250px;
+    padding-left: 100px;
+    text-decoration:underline;
+}
+.bg-dark{
+    background-color: #050a3c !important;
+    
+}
+.navbar{
+    font-family: 'Open Sans Condensed';
+    font-size: 35px;
+    font-weight: 600;
+    color: #f0e7c0;
+}
+.navbar-brand{
+    font-family: 'Open Sans Condensed';
+    font-size: 40px; 
+    color: #f0e7c0;
+}
+
+/* -----------------------------------------GENERAL------------------------------------------------------------ */
+.Noticias{
+    display: inline-flex;
+    text-align: center;
+    width: 100%;
+}
+h2{
+    font-size: 60px;
+    font-family: 'Gabriola';
+    background-color: #009688;
+    padding: -3px 5px 20px 5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+h4{
+    font-size: 40px;
+    font-family: 'Gabriola';
+    padding: 5px 5px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+ .Imagenes{
+    width: 250px;
+    height: 200px;
+}
+p{
+    margin-top: -5px;
+    text-align: center;
+    font-family: 'Open Sans Condensed';
+    font-weight: 600;
+    font-size: 20px;
+}
+.Iconos{
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+/* -----------------------------------------SECCION 1------------------------------------------------------------ */
+.Sec1 h2{
+    color: #f5ce7f;
+ 
+}
+.Sec1{
+    background-color: #a60039;
+    width: 50%;
+    margin-bottom: 40px;
+}
+/* -----------------------------------------SECCION 2------------------------------------------------------------ */
+.Sec2 h2{
+    color: #a60039;
+    
+}
+.Sec2{
+    background-color: #f5ce7f;
+    width: 50%;
+    margin-bottom: 40px;
+}
+
+/* -----------------------------------------FINAL------------------------------------------------------------ */
+.Final{
+    text-align: center;
+    color: #ffff;
+    font-size: 20px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-top: 5px;
+    margin-bottom: -40px;
+    margin-left: -10px;
+    margin-right: -10px;
+    
+}

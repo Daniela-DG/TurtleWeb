@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+/* Hueso #f0e7c0
+Amarillo #f5ce7f
+Rosa #ed6c67
+Magenta #a60039
+AguaMarina #009688
+Azul #05a3c
+Gris #4c565e*/
+#TituloFon{
+    font-family: 'Gabriola';
+    font-size: 100px;
+    color: #f0e7c0;
+    margin-bottom: -90px;
+    padding-top: 2px;
+    padding-right: 250px;
+    padding-left: 100px;
+    text-decoration:underline;
+}
+
+.bg-dark{
+    background-color: #a60039 !important;
+}
+.navbar{
+    font-family: 'Open Sans Condensed';
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar-brand{
+    font-family: 'Open Sans Condensed';
+    font-size: 40px; 
+}
+
+.Sec1{
+    background-color:#ed6c67;
+    margin:auto;
+}
+
+.Sice{
+   
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+    margin-bottom: 5px;
+}
+ 
+.Parrafo-inicio{
+    font-family: 'Open Sans Condensed';
+    font-weight: 600px;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #f0e7c0;
+    font-size: 25px;
+}
+h1{
+    font-family: 'Gabriola';
+    color: #f0e7c0;
+    font-size: 100px;
+}
+.Final{
+    text-align: center;
+    color: #ffff;
+    font-size: 20px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-bottom: -40px;
+    margin-left: -10px;
+    margin-right: -10px;
+    
+}
