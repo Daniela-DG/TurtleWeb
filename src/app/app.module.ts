@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import{Routes, RouterModule} from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { InicioComponent } from './Paginas/inicio/inicio.component';
@@ -13,6 +14,16 @@ import { MenuComponent } from './Paginas/menu/menu.component';
 import { FooterComponent } from './Paginas/footer/footer.component';
 
 
+const routesApp: Routes = [
+  { path: '', component:InicioComponent},
+  { path: 'inicio', component:InicioComponent},
+  { path: 'fauna-y-flora', component:FYFComponent},
+  { path: 'noticias', component:NoticiasComponent},
+  { path: 'mitologia', component:MitologiaComponent},
+  { path: 'galeria', component:GaleriaComponent},
+  { path: 'datos-curiosos', component:DatosCuComponent},
+  { path: 'nosotros', component:NosotrosComponent},  
+]
 
 @NgModule({
   declarations: [
@@ -29,7 +40,8 @@ import { FooterComponent } from './Paginas/footer/footer.component';
     
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouterModule.forRoot(routesApp)
   ],
   providers: [],
   bootstrap: [AppComponent]
