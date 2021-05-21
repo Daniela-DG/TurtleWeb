@@ -18,22 +18,6 @@ Gris #4c565e*/
     padding-left: 100px;
     text-decoration:underline;
 }
-.bg-dark{
-    background-color: #050a3c !important;
-    
-}
-.navbar{
-    font-family: 'Open Sans Condensed';
-    font-size: 35px;
-    font-weight: 600;
-    color: #f0e7c0;
-}
-.navbar-brand{
-    font-family: 'Open Sans Condensed';
-    font-size: 40px; 
-    color: #f0e7c0;
-}
-
 /* -----------------------------------------GENERAL------------------------------------------------------------ */
 .Noticias{
     display: inline-flex;
@@ -89,18 +73,4 @@ p{
     background-color: #f5ce7f;
     width: 50%;
     margin-bottom: 40px;
-}
-
-/* -----------------------------------------FINAL------------------------------------------------------------ */
-.Final{
-    text-align: center;
-    color: #ffff;
-    font-size: 20px;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    margin-top: 5px;
-    margin-bottom: -40px;
-    margin-left: -10px;
-    margin-right: -10px;
-    
 }
