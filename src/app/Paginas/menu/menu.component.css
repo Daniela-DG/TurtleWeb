@@ -1,4 +1,7 @@
-.navbar{
+
+.bg-light{
+    background-color: #009688 !important;
+}.navbar{
     font-family: 'Open Sans Condensed';
     font-size: 35px;
     font-weight: 600;

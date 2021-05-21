@@ -18,22 +18,10 @@ Gris #4c565e*/
     padding-left: 100px;
     text-decoration:underline;
 }
-.bg-light{
-    background-color: #ed6c67 !important;
-}
-.navbar{
-    font-family: 'Open Sans Condensed';
-    font-size: 35px;
-    font-weight: 600;
-}
-.navbar-brand{
-    font-family: 'Open Sans Condensed';
-    font-size: 40px; 
-}
-/* -----------------------------------------GENERAL------------------------------------------------------------
+
+/* -----------------------------------------GENERAL------------------------------------------------------------*/
 .Mitos{
     text-align: center;
-    background-image: url(Imagenes/FondoT\ 1.png) !important;
 }
 .Mitos h2{
     font-size: 60px;
@@ -44,9 +32,8 @@ Gris #4c565e*/
 }
 .Mitos video{
     padding: 15px 20px 15px 20px;;
-    border: #f0e7c0 dotted 5px static;
-    background-image: url(Imagenes/FondoT\ 1.png) !important; 
-}*/
+    border: #f0e7c0 dotted 5px static; 
+}
 /* -----------------------------------------SECCION 1------------------------------------------------------------ */
 .Kraken {
     text-align: center;
@@ -101,17 +88,4 @@ Gris #4c565e*/
     padding:  1px 10px 3px 10px;
     font-size: 20px;
     font-family: 'Open Sans Condensed';
-}
-/* -----------------------------------------FINAL------------------------------------------------------------ */
-.Final{
-    text-align: center;
-    color: #ffff;
-    font-size: 20px;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    margin-top: 5px;
-    margin-bottom: -40px;
-    margin-left: -10px;
-    margin-right: -10px;
-    
 }

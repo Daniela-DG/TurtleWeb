@@ -17,18 +17,6 @@ Gris #4c565e*/
     padding-left: 80px;
     text-decoration:underline;
 }
-.bg-light{
-    background-color: #f0e7c0 !important;
-}
-.navbar{
-    font-family: 'Open Sans Condensed';
-    font-size: 35px;
-    font-weight: 600;
-}
-.navbar-brand{
-    font-family: 'Open Sans Condensed';
-    font-size: 40px; 
-}
 /* -----------------------------------------GENERAL------------------------------------------------------------ */
 .Titulos{
     text-align: center;
@@ -139,17 +127,3 @@ Gris #4c565e*/
     height: 300px;
 }
 
-/* -----------------------------------------FINAL----------------------------------------------------------- */
-
-.Final{
-    text-align: center;
-    color: #ffff;
-    font-size: 20px;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    margin-top: 5px;
-    margin-bottom: -40px;
-    margin-left: -10px;
-    margin-right: -10px;
-    
-}

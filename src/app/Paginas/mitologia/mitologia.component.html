@@ -3,8 +3,6 @@
 
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-            integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>Mitología</title>
         <link rel="icon" href="assets/IconoMitos">
@@ -18,36 +16,10 @@
 <body>
     <!-- -------------------------------------------ENCABEZADO--------------------------------------------------------------------- -->
     <h1 id="TituloMit"> Mitología</h1>
-    <div class="d-flex justify-content-end" style="background-color:#ed6c67 ;">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <a class="navbar-brand" href="">Menú</a>
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="../index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../Htmls/FaunaYFlora.html">Fauna y flora</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../Htmls/Noticias.html">Noticias </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../Htmls/Fondos.html">Fondos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../Htmls/Nosotros.html">Nosotros</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </div>
+    <app-menu></app-menu>
         <!-- -------------------------------------------SECCION 1--------------------------------------------------------------------- -->
 <section class="Mitos">
+    
         <section class="Kraken">
             <article class="TextoKraken">
                 <h2>El Kraken</h2>
@@ -111,16 +83,9 @@
         </section>
 
 </section>
-    <!-- -------------------------------------------FINAL--------------------------------------------------------------------- -->
-    <footer class="Final">
-        <img id="TortugaBlanca" src="../Imagenes/IconoTortugaBlancoTexto.png" alt="Icono Tortuga Blanco">
-        <h3>Trabajo realizado por Daniela Díaz Gaviria para el BIT</h3>
-    </footer>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
-        
+<app-footer></app-footer>
+       
 
 </body>
 

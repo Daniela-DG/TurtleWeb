@@ -19,18 +19,7 @@ Gris #4c565e*/
     padding-left: 100px;
     text-decoration:underline;
 }
-.bg-dark{
-    background-color: #4c565e  !important;
-}
-.navbar{
-    font-family: 'Open Sans Condensed';
-    font-size: 35px;
-    font-weight: 600;
-}
-.navbar-brand{
-    font-family: 'Open Sans Condensed';
-    font-size: 40px; 
-}
+
 /* -----------------------------------------GENERAL------------------------------------------------------------ */
 h2{
     font-size: 40px;
@@ -124,17 +113,3 @@ textarea{
     background-color: #f5ce7f;
     color:#050a3c ;
 }
-/* -----------------------------------------FINAL------------------------------------------------------------ */
-.Final{
-    text-align: center;
-    color: #ffff;
-    font-size: 20px;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    margin-top: 5px;
-    margin-bottom: -40px;
-    margin-left: -10px;
-    margin-right: -10px;
-    
-}
-
