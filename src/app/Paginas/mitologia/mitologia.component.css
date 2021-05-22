@@ -7,12 +7,13 @@ AguaMarina #009688
 Azul #050a3c
 Gris #4c565e*/
 /* -----------------------------------------ENCABEZADO------------------------------------------------------------ */
-
+.Contenido{
+    background-color: #ed6c67;
+}
 #TituloMit{
     font-family: 'Gabriola';
     font-size: 100px;
     color: #a60039;
-    margin-bottom: -90px;
     padding-top: 2px;
     padding-right: 250px;
     padding-left: 100px;
@@ -21,7 +22,7 @@ Gris #4c565e*/
 
 /* -----------------------------------------GENERAL------------------------------------------------------------*/
 .Mitos{
-    text-align: center;
+    align-content: center;
 }
 .Mitos h2{
     font-size: 60px;
@@ -39,12 +40,14 @@ Gris #4c565e*/
     text-align: center;
     width: 98%;
     display: inline-flex;
-    background-color: #009688; 
+    background-color: #050a3c; 
 }
 .TextoKraken{
     display: block!important;
+    
 }
 .TextoKraken p{
+    color: #f0e7c0;
     font-weight: bold;
     margin-top: -25px;
     padding:  1px 10px 3px 10px;

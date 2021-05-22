@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import{Routes, RouterModule} from '@angular/router';
+import {ReactiveFormsModule, FormsModule}from '@angular/forms';
+
 
 import { AppComponent } from './app.component';
 import { InicioComponent } from './Paginas/inicio/inicio.component';
@@ -12,6 +14,7 @@ import { DatosCuComponent } from './Paginas/datos-cu/datos-cu.component';
 import { NosotrosComponent } from './Paginas/nosotros/nosotros.component';
 import { MenuComponent } from './Paginas/menu/menu.component';
 import { FooterComponent } from './Paginas/footer/footer.component';
+
 
 
 const routesApp: Routes = [
@@ -41,7 +44,9 @@ const routesApp: Routes = [
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(routesApp)
+    RouterModule.forRoot(routesApp),
+    ReactiveFormsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

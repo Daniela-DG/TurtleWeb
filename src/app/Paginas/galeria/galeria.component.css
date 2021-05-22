@@ -6,11 +6,14 @@ Magenta #a60039
 AguaMarina #009688
 Azul #05a3c
 Gris #4c565e*/
+.Contenido{
+    background-color: #a60039;
+}
 #TituloFon{
     font-family: 'Gabriola';
     font-size: 100px;
     color: #f0e7c0;
-    margin-bottom: -90px;
+    margin-bottom: 0px;
     padding-top: 2px;
     padding-right: 250px;
     padding-left: 100px;
@@ -31,8 +34,16 @@ Gris #4c565e*/
 }
 
 .Sec1{
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-color:#ed6c67;
     margin:auto;
+
+}
+p{
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
 }
 
 .Sice{

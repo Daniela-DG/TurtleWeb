@@ -18,6 +18,9 @@ Gris #4c565e*/
     text-decoration:underline;
 }
 /* -----------------------------------------GENERAL------------------------------------------------------------ */
+.Contenido{
+    background-color: #009688;
+}
 .Titulos{
     text-align: center;
     color: #f0e7c0;
@@ -74,7 +77,7 @@ Gris #4c565e*/
 .Parrafo2{
     display: inline-flex;
     padding: 25px 35px 25px 35px;
-    color: #ffffff;
+    color: #ffffff !important;
 }
 #ImagenNuqui{
     width: 500px;

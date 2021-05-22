@@ -7,12 +7,13 @@ AguaMarina #009688
 Azul #050a3c
 Gris #4c565e*/
 /* -----------------------------------------ENCABEZADO------------------------------------------------------------ */
-
+.Contenido{
+    background-color: #050a3c;
+}
 #TituloNot{
     font-family: 'Gabriola';
     font-size: 100px;
     color: #f0e7c0 ;
-    margin-bottom: -90px;
     padding-top: 2px;
     padding-right: 250px;
     padding-left: 100px;
