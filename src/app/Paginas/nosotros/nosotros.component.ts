@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import {FormBuilder, Validators, FormGroup} from '@angular/forms';
-import {SugerenciasService} from'../../Services/sugerencias.service'
+import {SugerenciasService} from'../../Services/sugerencias.service';
+const swal = require ('sweetalert')
+
 @Component({
   selector: 'app-nosotros',
   templateUrl: './nosotros.component.html',
@@ -35,15 +37,15 @@ export class NosotrosComponent implements OnInit {
     if(this.createCategoryForm.valid){
       this.sugerenciaService.create(this.createCategoryForm.value).subscribe(
         (servicioCreated)=>{
-          alert('Informacion enviada')
+          swal('Informacion enviada')
         },
         (error) =>{
-          alert ('Error al enviar ')
+          swal ('Error al enviar ')
         }
       )
-      alert ('Se envio la informacion a nuestra base de datos!! Gracias por ayudarnos a mejorar')
+      swal ('Se envio la informacion a nuestra base de datos!! Gracias por ayudarnos a mejorar')
     }else{
-      alert ('Lo sentimos no se envio la informacion verifica que el correo este correcto y que no tengas ningun campo vacio ')
+      swal ('Lo sentimos no se envio la informacion verifica que el correo este correcto y que no tengas ningun campo vacio ')
     }    
   }
 

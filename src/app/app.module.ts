@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import{Routes, RouterModule} from '@angular/router';
 import {ReactiveFormsModule, FormsModule}from '@angular/forms';
-
+import{HttpClientModule} from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { InicioComponent } from './Paginas/inicio/inicio.component';
@@ -46,7 +46,8 @@ const routesApp: Routes = [
     BrowserModule,
     RouterModule.forRoot(routesApp),
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
